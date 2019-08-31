@@ -155,7 +155,7 @@ def main():
 
     # start streaming
     try:
-        stream.filter(track=seed_query, languages=['en'])
+        stream.filter(track=seed_query, languages=['pt'])
     except Exception as e:
         logging.exception("exception fall through all catches, closing loop")
     finally:
